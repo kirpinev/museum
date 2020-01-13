@@ -1,0 +1,6 @@
+.project__line {
+    margin: 0;
+    width: 45px;
+    border: 2px solid #FBAC86;
+    display: inline-flex;
+}

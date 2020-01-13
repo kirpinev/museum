@@ -1,0 +1,10 @@
+.org__support {
+    width: 40%;
+}
+
+@media (max-width: 1239px) {
+    .org__support {
+        width: auto;
+        margin-bottom: 64px;
+    }
+}

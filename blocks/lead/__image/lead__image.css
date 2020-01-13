@@ -1,0 +1,9 @@
+.lead__image {
+}
+
+@media (max-width: 767px) {
+  .lead__image {
+    width: 85%;
+    height: auto;
+  }
+}

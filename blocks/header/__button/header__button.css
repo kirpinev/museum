@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  .header__button {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .header__button > span,
+  .header__button > span::before,
+  .header__button > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition-duration: 0.25s;
+  }
+  .header__button > span::before {
+    content: "";
+    top: -8px;
+  }
+  .header__button > span::after {
+    content: "";
+    top: 8px;
+  }
+}
+
+/*@media (max-width: 767px) {*/
+/*  .header__button {*/
+/*    top: 25px;*/
+/*  }*/
+/*}*/

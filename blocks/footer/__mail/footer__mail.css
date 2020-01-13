@@ -1,0 +1,20 @@
+.footer__mail {
+    text-decoration: none;
+    color: black;
+    font-family:'Calibri', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+}
+
+.footer__mail:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .footer__mail {
+        margin-bottom: 35px;
+    }
+}

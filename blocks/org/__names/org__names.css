@@ -1,0 +1,9 @@
+.org__names {
+    margin-bottom: 127px;
+}
+
+@media (max-width: 1239px) {
+    .org__names {
+        margin-bottom: 64px;
+    }
+}

@@ -1,0 +1,9 @@
+.about__wrapper {
+    padding: 75px 0;
+}
+
+@media (max-width: 1239px) {
+    .about__wrapper {
+        padding: 75px 25px;
+    }
+}

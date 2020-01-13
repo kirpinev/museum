@@ -1,0 +1,18 @@
+@import url("./__wrapper/header__wrapper.css");
+@import url("./__links/header__links.css");
+@import url("./__logo-link/header__logo-link.css");
+@import url("./__link/header__link.css");
+@import url("./__item/header__item.css");
+@import url("./__logo/header__logo.css");
+@import url("./__toggle/header__toggle.css");
+@import url("./__button/header__button.css");
+
+.header {
+  background-color: #f9e7d9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}

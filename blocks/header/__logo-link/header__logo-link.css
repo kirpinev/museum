@@ -1,0 +1,5 @@
+.header__logo-link {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}

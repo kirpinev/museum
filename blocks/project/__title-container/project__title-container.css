@@ -1,0 +1,7 @@
+.project__title-container {
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9E7D9;
+}

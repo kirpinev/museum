@@ -1,0 +1,13 @@
+@import url("./__wrapper/lead__wrapper.css");
+@import url("./__title/lead__title.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__dates/lead__dates.css");
+@import url("./__timing/lead__timing.css");
+@import url("./__timing-span/lead__timing-span.css");
+@import url("./__button/lead__button.css");
+@import url("./__image/lead__image.css");
+
+.lead {
+    background-color: #F9E7D9;
+    /*height: 100vh;*/
+}
