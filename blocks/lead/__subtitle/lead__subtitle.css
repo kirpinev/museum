@@ -1,11 +1,13 @@
 .lead__subtitle {
-    font-family: "Calibri", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    max-width: 650px;
-    color: #001185;
-    margin-bottom: 50px;
+  font-family: "Calibri", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  /*font-size: 24px;*/
+  font-size: calc((100vw - 368px) / (1240 - 368) * (24 - 14) + 14px);
+  line-height: calc((100vw - 368px) / (1280 - 368) * (29 - 17) + 17px);
+  /*line-height: 29px;*/
+  text-align: center;
+  max-width: 650px;
+  color: #001185;
+  margin-bottom: 50px;
 }

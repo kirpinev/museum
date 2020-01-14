@@ -20,6 +20,6 @@
   }
   .header__toggle:checked ~ .header__links {
     visibility: visible;
-    left: 0;
+    right: 0;
   }
 }
