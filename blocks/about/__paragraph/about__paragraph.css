@@ -1,15 +1,23 @@
 .about__paragraph {
-    font-family: "Calibri", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 0.02em;
-    max-width: 925px;
-    text-align: center;
-    margin: 0 0 63px 0;
+  font-family: "Calibri", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  /*font-size: 20px;*/
+  /*line-height: 36px;*/
+  font-size: calc((100vw - 320px) / (1240 - 320) * (20 - 14) + 14px);
+  line-height: calc((100vw - 320px) / (1280 - 320) * (36 - 24) + 24px);
+  letter-spacing: 0.02em;
+  max-width: 925px;
+  text-align: center;
+  margin: 0 0 calc((100vw - 320px) / (1240 - 320) * (63 - 40) + 40px) 0;
 }
 
 .about__paragraph:nth-of-type(3) {
-    margin: 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .about__paragraph {
+    text-align: left;
+  }
 }

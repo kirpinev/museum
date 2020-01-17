@@ -3,12 +3,11 @@
   font-style: normal;
   font-weight: normal;
 
-  font-size: calc((100vw - 368px) / (1240 - 368) * (48 - 24) + 24px);
-  line-height: calc((100vw - 368px) / (1280 - 368) * (48 - 24) + 24px);
-  /*font-size: 48px;*/
-  /*line-height: 48px;*/
+  font-size: calc((100vw - 320px) / (1240 - 320) * (48 - 24) + 24px);
+  line-height: calc((100vw - 320px) / (1280 - 320) * (48 - 24) + 24px);
+  width: calc((100vw - 320px) / (1240 - 320) * (657 - 190) + 190px);
   letter-spacing: -0.005em;
   color: #001185;
-  margin: 50px 0;
+  margin: calc((100vw - 320px) / (1240 - 320) * (50 - 25) + 25px) 0;
   text-align: center;
 }

@@ -1,12 +1,13 @@
 .lead__timing {
-    font-family: "Calibri", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 80px;
-    letter-spacing: -0.005em;
-    color: #A95099;
-    max-width: 449px;
-    text-align: center;
-    margin-top: 0;
+  font-family: "Calibri", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc((100vw - 368px) / (1240 - 320) * (36 - 24) + 24px);
+  line-height: calc((100vw - 368px) / (1280 - 320) * (80 - 50) + 50px);
+  letter-spacing: -0.005em;
+  color: #a95099;
+  max-width: calc((100vw - 368px) / (1240 - 320) * (449 - 285) + 285px);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom:  calc((100vw - 320px) / (1240 - 320) * (35 - 42) + 42px);
 }

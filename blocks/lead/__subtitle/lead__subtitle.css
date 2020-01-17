@@ -9,5 +9,5 @@
   text-align: center;
   max-width: 650px;
   color: #001185;
-  margin-bottom: 50px;
+  margin-bottom: calc((100vw - 320px) / (1240 - 320) * (50 - 43) + 43px);
 }

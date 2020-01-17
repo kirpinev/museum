@@ -1,8 +1,8 @@
 .lead__timing-span {
-    font-family: "Pribambas", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: -0.005em;
+  font-family: "Pribambas", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc((100vw - 368px) / (1240 - 320) * (48 - 36) + 36px);
+  line-height: calc((100vw - 368px) / (1280 - 320) * (48 - 36) + 36px);
+  letter-spacing: -0.005em;
 }

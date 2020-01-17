@@ -1,9 +1,10 @@
 .about__wrapper {
-    padding: 75px 0;
+  padding: calc((100vw - 320px) / (1240 - 320) * (75 - 24) + 24px)
+    calc((100vw - 320px) / (1240 - 320) * (0 - 27) + 27px);
 }
 
-@media (max-width: 1239px) {
-    .about__wrapper {
-        padding: 75px 25px;
-    }
-}
+/*@media (max-width: 1239px) {*/
+/*  .about__wrapper {*/
+/*    padding: 75px 25px;*/
+/*  }*/
+/*}*/
