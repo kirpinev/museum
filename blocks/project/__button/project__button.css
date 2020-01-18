@@ -1,10 +1,10 @@
 .project__button {
-    width: 422px;
-    height: 87px;
-    background-color: #FA8E5A;
-    font-size: 30px;
-    line-height: 37px;
-    letter-spacing: -0.005em;
-    color: #001185;
-    margin-bottom: 50px;
+  width: calc((100vw - 368px) / (1240 - 320) * (422 - 234) + 234px);
+  height: calc((100vw - 320px) / (1240 - 320) * (87 - 50) + 50px);
+  background-color: #fa8e5a;
+  font-size: calc((100vw - 320px) / (1240 - 320) * (30 - 18) + 18px);
+  line-height: calc((100vw - 320px) / (1240 - 320) * (37 - 22) + 22px);
+  letter-spacing: -0.005em;
+  color: #001185;
+  margin-bottom: calc((100vw - 320px) / (1240 - 320) * (50 - 25) + 25px);
 }

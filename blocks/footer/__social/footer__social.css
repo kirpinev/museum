@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .footer__social {
+    order: 2;
+      margin-bottom: 35px;
+  }
+}

@@ -1,5 +1,5 @@
 .project__title {
-  margin: 0 0 55px 0;
+  margin: calc((100vw - 320px) / (1240 - 320) * (50 - 25) + 25px) 0;
   text-align: center;
   font-family: "Pribambas", Arial, sans-serif;
   font-style: normal;

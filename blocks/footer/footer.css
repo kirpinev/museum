@@ -2,7 +2,8 @@
 @import url("./__copyright/footer__copyright.css");
 @import url("./__social-logo/footer__social-logo.css");
 @import url("./__mail/footer__mail.css");
+@import url("./__social/footer__social.css");
 
 .footer {
-background-color: #F9E7D9;
+  background-color: #f9e7d9;
 }

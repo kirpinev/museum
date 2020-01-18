@@ -5,7 +5,7 @@
   color: #001185;
   background-color: #fa8e5a;
   width: calc((100vw - 320px) / (1240 - 320) * (370 - 245) + 245px);
-  height: calc((100vh - 320px) / (1240 - 320) * (70 - 50) + 50px);
+  height: calc((100vw - 320px) / (1240 - 320) * (70 - 50) + 50px);
   margin-bottom: 40px;
 }
 

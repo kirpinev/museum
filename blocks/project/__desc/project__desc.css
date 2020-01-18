@@ -1,10 +1,12 @@
 .project__desc {
-    width: 310px;
-    height: 149px;
-    background-color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    margin-top: -87px;
-    padding: 30px 0 0 21px;
-    box-sizing: border-box;
-    position: relative;
+  /*width: 310px;*/
+  width: calc((100vw - 320px) / (1240 - 320) * (310 - 218) + 218px);
+  /*height: 149px;*/
+  height: calc((100vw - 320px) / (1240 - 320) * (149 - 104) + 104px);
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  margin-top: -87px;
+  padding: 24px 0 0 20px;
+  box-sizing: border-box;
+  position: relative;
 }

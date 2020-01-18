@@ -1,13 +1,14 @@
 .project__card {
-    width: 356px;
+  /*width: 355px;*/
+  width: calc((100vw - 320px) / (1240 - 320) * (355 - 268) + 268px);
 }
 
 @media (max-width: 1239px) {
-    .project__card {
-        margin-bottom: 50px;
-    }
+  .project__card {
+    margin-bottom: 50px;
+  }
 
-    .project__card:last-of-type {
-        margin-bottom: 0;
-    }
+  .project__card:last-of-type {
+    margin-bottom: 0;
+  }
 }
